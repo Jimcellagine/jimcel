@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+
+      @media only screen and (min-width: 600px) {
+
+        body {
+                margin: 0;
+                padding: 0;
+                background-image: url("img/nature.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-attachment: fixed;
+
+
+            }
+
+            .container {
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(13, 10vh);
+                gap: 5px;
+
+            }
+
+            .item1 {
+                 
+                grid-row: 1/4;
+                grid-column: 2/5;
+                color: black;
+                font-size: 7px;
+                text-align: center;
+                align-items: center;
+                background: linear-gradient(skyblue,pink,yellow );
+                
+            }
+
+            .img1 {
+                    height: 30%;
+                    width: 30%;
+                }
+
+
+
+
+            .item2 {
+                border: solid 5px;
+                
+                grid-row: 6/11;
+                grid-column: 2/6;
+                font-size: 10px;
+                color: black;
+
+            }  
+            .circular-image {
+                margin-top: 3vh;
+                width: 100px;
+                height: 100px;
+                border-radius: 5px;
+            }
+    }
+
+
+      @media only screen and (min-width: 768px) {
+
+        body {
+                margin: 0;
+                padding: 0;
+                background-image: url("img/nature.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-attachment: fixed;
+
+
+            }
+
+            .container {
+                display: grid;
+                grid-template-columns: repeat(13, 1fr);
+                grid-template-rows: repeat(13, 10vh);
+                gap: 5px;
+
+            }
+
+            .item1 {
+               
+                grid-row: 1/5;
+                grid-column: 4/8;
+                font-size: 6px;
+                background: linear-gradient(skyblue,pink,yellow );
+                color: black;
+            }
+
+            .img1 {
+                    height: 30%;
+                    width: 30%;
+                }
+
+
+
+
+            .item2 {
+                border: solid 5px;
+               
+                grid-row: 6/12;
+                grid-column: 2/10;
+                font-size: 15px;
+                color: black;
+
+            }  
+            .circular-image {
+                margin-top: 3vh;
+                width: 100px;
+                height: 100px;
+                border-radius: 5px;
+            }
+    }
+
+
+
+   @media only screen and (min-width: 992px) {
+           body {
+                margin: 0;
+                padding: 0;
+                background-image: url("img/nature.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-attachment: fixed;
+
+
+            }
+
+            .container {
+                display: grid;
+                grid-template-columns: repeat(13, 1fr);
+                grid-template-rows: repeat(13, 10vh);
+                gap: 5px;
+
+            }
+
+            .item1 {
+                
+                grid-row: 2/9;
+                grid-column: 2/5;
+                font-size: 10px;
+                text-align: center;
+                align-items: center;
+                background: linear-gradient(skyblue,pink,yellow );
+                color: black;
+            }
+
+            .img1 {
+                    height: 30%;
+                    width: 30%;
+                }
+
+
+
+
+            .item2 {
+                border: solid 5px;
+               
+                grid-row: 2/9;
+                grid-column: 5/13;
+                font-size: 20px;
+                color: black;
+
+            }  
+            .circular-image {
+                margin-top: 3vh;
+                width: 100px;
+                height: 100px;
+                border-radius: 5px;
+            }
+    }
+
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">
+            <img src="img/img1.jpg" alt="Your Image" class="circular-image">
+            <h1> JIMCEL D. LAGINE </h1> 
+            <div class="item1">
+            <p style="text-align: center"> jimcellagine047@gmail.com<br> 
+            </div>
+            <div class="item1" style="display: flex;">
+                <img src="img/tiktok2.jpg" width="30" height="30" style="margin: 10px 0% 0 10%;">
+                <h1 style="margin: 7% 70% 0 3%; font-size: 13px;"> Jimcellagine</h1>
+            </div>
+            <div class="item1" style="display: flex;">
+                <img src="img/facebook.jpg" width="30" height="30" style="margin: 10px 0% 0 10%;">
+                <h1 style="margin: 7% 70% 0 3%; font-size: 13px;">Jimcel Lagine</h1>
+            </div>
+                
+
+        </div>
+        <div class="item2"> <p style="text-align: center"> </p>
+            <h1 style="text-align: center">Personal Information</h1>
+            <p style="text-align: center"> AGE: 22 <br> 
+            <p style="text-align: center"> Contact No: 09463599179 </><br> <p style="text-align: center"> B-DATE: June 19, 2001 <p style="text-align: center"> Address: BRGY.Camingawan 
+            <h1> MOTTO: "Success is no accident It is hard work,
+            perseverance, learning, studying, sacrifice and most of all, love of what you are doing."</h1> 
+        </div>
+    </div>
+</body>
+</html>
